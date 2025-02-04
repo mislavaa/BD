@@ -73,5 +73,4 @@ FROM book_author;
 
 SELECT b.name, b.date, p.name
 FROM book b
-         JOIN publisher p ON b.publisher_id = p.id
-         JOIN book_author ba ON b.id = ba.book_id;
+         JOIN publisher p ON b.publisher_id = p.id;
